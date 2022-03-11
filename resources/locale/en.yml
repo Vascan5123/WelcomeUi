@@ -1,0 +1,11 @@
+vascan-default:
+  admin:
+    welcome_settings:
+      title: "Welcome!"
+      leftText: "Left text"
+      letfText_text: "Write text which appear on left in WelcomeHero"
+      rightText: "Right text"
+      rightText_text: "Write text which appear on right in WelcomeHero"
+      sliderItems: "Splash text"
+      sliderItems_text: "Write list of splash texts. Every text should be added in new line"
+      placeholder: "Write text"

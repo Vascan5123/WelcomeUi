@@ -1,3 +1,6 @@
+import DefaultSettingsPage from './components/DefaultSettingsPage';
+
 app.initializers.add('vascan/welcome-ui', () => {
-  console.log('[vascan/welcome-ui] Hello, admin!');
+  app.extensionData.for('vascan-welcome-ui')
+    .registerPage(DefaultSettingsPage);
 });

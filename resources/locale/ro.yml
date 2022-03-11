@@ -1,0 +1,10 @@
+vascan-default:
+  welcome_settings:
+    title: "Bun venit!"
+    leftText: "Text din stânga"
+    letfText_text: "Introdu textul care va fi prezentat în stânga"
+    rightText: "Text din dreapta"
+    rightText_text: "Introdu textul care va fi prezentat în dreapta"
+    sliderItems: "Text schimbator"
+    sliderItems_text: "Introdu lista de texte care se va schimba aleator. Fiecare text trebuie sa fie din rând nou."
+    placeholder: "Introdu text"

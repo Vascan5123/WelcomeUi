@@ -1,3 +1,5 @@
+import changeWelcomeHero from './settings/changeWelcomeHero';
+
 app.initializers.add('vascan/welcome-ui', () => {
-  console.log('[vascan/welcome-ui] Hello, forum!');
+  changeWelcomeHero();
 });
